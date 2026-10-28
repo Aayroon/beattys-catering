@@ -12,7 +12,7 @@ export const metadata = {
     template: "%s | Beattys Catering",
   },
   description:
-    "Beattys Catering provides outdoor and corporate catering for weddings, graduations, birthdays, funerals and family gatherings in Nairobi and across Kenya.",
+    "Beattys Catering provides outdoor and corporate catering for weddings, religious ceremonies, private dining, social gatherings, school events, graduations, birthdays and funerals in Nairobi and across Kenya.",
 };
 
 export default function RootLayout({ children }) {
