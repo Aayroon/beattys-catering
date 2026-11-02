@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { whatsappLink } from "@/data/site";
-import Image from "next/image";
 
 export default function Hero() {
   return (
@@ -34,15 +33,9 @@ export default function Hero() {
           </div>
         </div>
 
-                <div className="relative aspect-[4/3] overflow-hidden rounded-3xl border-2 border-gold/50 shadow-2xl">
-          <Image
-            src="/images/food-display.webp"
-            alt="Buffet food display by Beattys Catering at an outdoor event in Nairobi"
-            fill
-            priority
-            sizes="(min-width: 768px) 50vw, 100vw"
-            className="object-cover"
-          />
+        {/* Replace this block with a real food photo later */}
+        <div className="flex aspect-[4/3] items-center justify-center rounded-3xl border-2 border-gold/50 bg-brand-dark text-center">
+          <span className="px-6 text-gold">Hero food photo goes here</span>
         </div>
       </div>
     </section>
