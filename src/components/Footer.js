@@ -12,7 +12,7 @@ export default function Footer() {
         <div className="text-sm">
           <h4 className="font-semibold text-gold">Contact</h4>
           <p className="mt-2">Phone: <a href={`tel:${site.phoneTel}`} className="hover:text-gold">{site.phoneDisplay}</a></p>
-          <p>Email: {site.email}</p>
+          <p>Email: <a href={`mailto:${site.email}`} className="hover:text-gold">{site.email}</a></p>
         </div>
         <div className="text-sm">
           <h4 className="font-semibold text-gold">Services</h4>
