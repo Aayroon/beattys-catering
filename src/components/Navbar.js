@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const links = [
   { href: "/", label: "Home" },
@@ -19,8 +20,18 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 bg-cream/90 backdrop-blur border-b border-gold/30">
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
-        <Link href="/" className="font-display text-2xl font-bold text-brand">
-          Beattys <span className="text-gold">Catering</span>
+        <Link href="/" className="flex items-center gap-3" aria-label="Beattys Catering home">
+           <Image
+             src="/images/logo.png"
+             alt="Beattys Catering logo"
+             width={160}
+             height={48}
+             priority
+             className="h-10 w-auto md:h-12"
+           />
+           <span className="font-display text-xl font-bold leading-tight text-brand md:text-2xl">
+              Beattys <span className="text-gold">Catering</span>
+           </span>
         </Link>
 
         <ul className="hidden gap-6 md:flex">
