@@ -1,4 +1,5 @@
 import { site } from "@/data/site";
+import Image from "next/image";
 export default function Footer() {
   return (
     <footer className="bg-brand-dark text-cream">
@@ -19,6 +20,9 @@ export default function Footer() {
           <p className="mt-2">Weddings · Corporate · Religious · Private Dining · Social · Schools · Graduations · Birthdays · Funerals</p>
         </div>
       </div>
+      {/*<div className="mb-3 inline-block rounded-xl bg-cream p-2">
+        <Image src="/images/logo.png" alt="Beattys Catering logo" width={140} height={42} className="h-10 w-auto" />
+      </div>*/}
       <p className="border-t border-cream/10 py-4 text-center text-xs opacity-70">
         © {new Date().getFullYear()} Beattys Catering. All rights reserved.
       </p>
