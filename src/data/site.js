@@ -5,8 +5,9 @@ export const site = {
   phoneTel: "+254722939017",
   whatsapp: "254722939017",
   email: "beattyscatering@gmail.com", 
-  base: "Nairobi, Kenya",
-  url: "https://beattyscatering.com",
+  base: "Nairobi",
+  mapQuery: "Komarock, Nairobi, Kenya",
+  url: "https://beattyscatering.com", 
 };
 
 export const whatsappLink = (message = "Hello Beattys Catering, I would like a quote.") =>

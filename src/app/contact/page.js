@@ -48,12 +48,20 @@ export default function ContactPage() {
 
           <div className="overflow-hidden rounded-2xl border border-gold/30">
             <iframe
-              title="Map showing Nairobi, Kenya"
-              src="https://www.google.com/maps?q=Nairobi,Kenya&output=embed"
+              title="Map showing Beattys Catering in Komarock, Nairobi"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d650.7739415867347!2d36.906374641108506!3d-1.2688528304308302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f146384bc76f5%3A0x6311ba4011e5ed39!2sKomarock%20Phase%20IIIB%2C%20Nairobi!5e0!3m2!1sen!2ske!4v1794481635721!5m2!1sen!2ske"
               className="h-72 w-full"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
             />
+            <a
+              href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(site.mapQuery)}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block bg-white p-3 text-center text-sm font-semibold text-brand hover:bg-blush"
+             >
+              Open in Google Maps
+            </a>
           </div>
         </aside>
       </section>

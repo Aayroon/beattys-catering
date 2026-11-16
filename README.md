@@ -41,3 +41,4 @@ Enable email forwarding feature on web 3 forms
 Restrict Web3Form key to my domain, since the keys are public-facing by default
 Before launch, replace the correct email in src/data/site.js
 Phone number change to the appropriate business phone number that will be used
+Swap real domain in url field of src/data/site.js
