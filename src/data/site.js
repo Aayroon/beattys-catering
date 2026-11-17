@@ -7,7 +7,7 @@ export const site = {
   email: "beattyscatering@gmail.com", 
   base: "Nairobi",
   mapQuery: "Komarock, Nairobi, Kenya",
-  url: "https://beattys-catering.vercel.app", 
+  url: "https://beattyscatering.co.ke", 
 };
 
 export const whatsappLink = (message = "Hello Beattys Catering, I would like a quote.") =>
