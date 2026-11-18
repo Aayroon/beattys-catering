@@ -4,7 +4,7 @@ export const site = {
   phoneDisplay: "+254 722 939 017",
   phoneTel: "+254722939017",
   whatsapp: "254722939017",
-  email: "beattyscatering@gmail.com", 
+  email: "info@beattyscatering.co.ke", 
   base: "Nairobi",
   mapQuery: "Komarock, Nairobi, Kenya",
   url: "https://beattyscatering.co.ke", 

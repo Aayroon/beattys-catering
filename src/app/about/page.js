@@ -116,7 +116,7 @@ export default function AboutPage() {
         <div className="mx-auto max-w-4xl px-4 text-center">
           <h2 className="text-3xl font-bold text-brand">A skilled, dependable team</h2>
           <p className="mt-4 text-ink/80">
-            Beatrice leads a team of 11 permanent staff who are highly qualified, motivated and
+            Beatrice leads a team of 16 staff who are highly qualified, motivated and
             self-driven, able to work with minimal supervision. For larger events we bring in
             additional casual staff to suit the menu, the nature of the work and the needs of the
             day.
